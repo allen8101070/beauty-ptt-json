@@ -1,7 +1,8 @@
 # ptt表特首頁爬蟲
 - 爬取ptt表特首頁前幾筆的網頁連結，並抓取內頁的imgur圖片連結成json
 - 使用request、cheerio、express三個模組
-- 爬蟲程式在crawler.js、express程式在index.js
+- 爬蟲程式在crawler內、express程式在index內
+
 ## Build Setup
 
 ``` bash
