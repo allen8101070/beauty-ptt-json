@@ -1,9 +1,8 @@
 const fs = require('fs');
-var express = require('express');
-var cors = require('cors');
-var crawler = require('./crawler.js');
-
-var app = express();
+const express = require('express');
+const cors = require('cors');
+const crawler = require('./crawler.js');
+const app = express();
 
 
 //使用此跨域模組 預設是＊無限制
