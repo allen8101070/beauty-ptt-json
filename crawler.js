@@ -20,7 +20,7 @@ var getBeautyhref = () => {
             const titles = $('.r-ent .title a');
     
             // 取得5筆表特頁連結
-            for (let i = 0; i < 5; i++) {
+            for (let i = 0; i < 7; i++) {
                 let pttobj = {}
                 pttobj.href = 'https://www.ptt.cc' + titles[i].attribs.href
 
